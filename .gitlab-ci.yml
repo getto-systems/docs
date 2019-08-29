@@ -1,25 +1,9 @@
 image: getto/hangar:j0fRHJnie0ynuaHC
 
 stages:
-  - test
   - build
   - release
   - notify
-
-test:
-  stage: test
-  only:
-    refs:
-      - merge_requests
-    changes:
-      - index.js
-      - lib/**/*
-      - test/**/*
-
-  before_script:
-    - ./bin/restore.sh
-  script:
-    - npm test
 
 check:
   stage: build
@@ -43,7 +27,7 @@ check:
       - .cache
 
   script:
-    - getto-hangar-build.sh
+    - getto-hangar-test.sh
 
 build:
   stage: build
@@ -53,7 +37,6 @@ build:
     changes:
       - package-lock.json
       - Dockerfile
-      - Dockerfile-test
 
   image: getto/hangar:latest
 
@@ -79,7 +62,6 @@ push_image:
     changes:
       - package-lock.json
       - Dockerfile
-      - Dockerfile-test
   except:
     refs:
       - schedules
@@ -114,9 +96,8 @@ release:
   before_script:
     - ./bin/restore.sh
   script:
-    - npm test
     - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/version_dump.sh | bash
-    - ./bin/push_tags.sh
+    - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/push_tags.sh | bash
     - ./bin/deploy.sh
 
 release_success:
