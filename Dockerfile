@@ -1,0 +1,39 @@
+FROM ubuntu:disco
+
+ENV NODE_VERSION 12
+ENV HUGO_VERSION 0.57.2
+
+RUN set -x && \
+  apt-get update && \
+  apt-get install -y \
+    ca-certificates \
+    curl \
+    git \
+  && \
+  : "to fix vulnerabilities, update following packages" && \
+  : apt-get install -y --no-install-recommends \
+    bzip2 \
+  && \
+  : "install node" && \
+  curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
+  apt-get install -y nodejs && \
+  npm install -g npm && \
+  : "install hugo" && \
+  curl -L -o /opt/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+  tar zxvf /opt/hugo.tar.gz -C /opt && \
+  mv /opt/hugo /usr/bin && \
+  rm -rf /opt && \
+  : "cleanup apt caches" && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/* && \
+  : "add working user" && \
+  useradd -m getto && \
+  : "prepare app directory" && \
+  mkdir -p /opt/app && \
+  chown getto:getto /opt/app && \
+  : "environment prepared"
+
+WORKDIR /opt/app
+USER getto
+
+CMD ["/bin/bash"]
