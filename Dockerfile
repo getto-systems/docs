@@ -33,7 +33,14 @@ RUN set -x && \
   chown getto:getto /opt/app && \
   : "environment prepared"
 
+COPY package*.json /opt/app/
+
 WORKDIR /opt/app
 USER getto
+
+RUN set -x && \
+  : "install node modules" && \
+  npm clean-install && \
+  : "project prepared"
 
 CMD ["/bin/bash"]
