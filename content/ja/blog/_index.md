@@ -6,8 +6,5 @@ menu:
     weight: 30
 ---
 
-
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
+プロジェクトごとに、そのモデルを選択した設計上の意思決定を記述する。
 
