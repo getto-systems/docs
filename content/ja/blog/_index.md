@@ -1,6 +1,6 @@
 ---
-title: "Docsy Blog"
-linkTitle: "Blog"
+title: ノート
+linkTitle: ノート
 menu:
   main:
     weight: 30

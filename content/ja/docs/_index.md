@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: ドキュメント
+linkTitle: ドキュメント
 weight: 20
 menu:
   main:
