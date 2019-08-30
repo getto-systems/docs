@@ -1,12 +1,27 @@
 image: getto/hangar:j0fRHJnie0ynuaHC
 
 stages:
+  - test
+  - check
   - build
   - release
   - notify
 
+test:
+  stage: test
+  only:
+    refs:
+      - merge_requests
+    changes:
+      - content/**/*
+
+  before_script:
+    - ./bin/restore.sh
+  script:
+    - npm test
+
 check:
-  stage: build
+  stage: check
   only:
     refs:
       - schedules
@@ -28,6 +43,21 @@ check:
 
   script:
     - getto-hangar-test.sh
+
+update:
+  stage: check
+  only:
+    refs:
+      - schedules
+    variables:
+      - $UPDATE
+
+  variables:
+    GIT_USER_NAME: getto
+    GIT_USER_EMAIL: admin@getto.systems
+
+  script:
+    - ./bin/update_version.sh
 
 build:
   stage: build
