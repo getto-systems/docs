@@ -1,4 +1,4 @@
-FROM ubuntu:disco
+FROM google/cloud-sdk:260.0.0-slim
 
 ENV NODE_VERSION 12
 ENV HUGO_VERSION 0.57.2

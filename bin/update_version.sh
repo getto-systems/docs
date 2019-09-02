@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./bin/update_gcloud.sh
 ./bin/update_hugo.sh
 
 if [ "$(git status -s Dockerfile)" ]; then
