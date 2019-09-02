@@ -6,4 +6,4 @@ version=$(
   sed "s/.*: \([0-9.]\+\)/\1/" \
 )
 
-sed -i -e "s|HUGO_VERSION .*|HUGO_VERSION $version|" Dockerfile
+sed -i -e "s|GOOGLE_CLOUD_SDK_VERSION .*|GOOGLE_CLOUD_SDK_VERSION $version|" Dockerfile
