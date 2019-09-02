@@ -10,7 +10,6 @@ RUN set -x && \
     ca-certificates \
     curl \
     git \
-    python \
   && \
   : "to fix vulnerabilities, update following packages" && \
   : apt-get install -y --no-install-recommends \
