@@ -6,10 +6,12 @@ ENV HUGO_VERSION 0.57.2
 
 RUN set -x && \
   apt-get update && \
+  apt-get install -y apt-utils && \
   apt-get install -y \
     ca-certificates \
     curl \
     git \
+    python-pip \
   && \
   : "to fix vulnerabilities, update following packages" && \
   : apt-get install -y --no-install-recommends \
@@ -28,6 +30,8 @@ RUN set -x && \
   echo "deb https://packages.cloud.google.com/apt cloud-sdk-$(lsb_release -c -s) main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
   curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
   apt-get update && apt-get install -y google-cloud-sdk=${GOOGLE_CLOUD_SDK_VERSION}-0 kubectl && \
+  : "install awscli" && \
+  pip install awscli && \
   : "cleanup apt caches" && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* && \
