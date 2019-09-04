@@ -16,6 +16,7 @@ RUN set -x && \
   : "to fix vulnerabilities, update following packages" && \
   apt-get install -y --no-install-recommends \
     libudev1 \
+    libsystemd0 \
   && \
   : "install node" && \
   curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
