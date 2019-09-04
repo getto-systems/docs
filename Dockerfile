@@ -14,8 +14,8 @@ RUN set -x && \
     python-pip \
   && \
   : "to fix vulnerabilities, update following packages" && \
-  : apt-get install -y --no-install-recommends \
-    bzip2 \
+  apt-get install -y --no-install-recommends \
+    libudev1 \
   && \
   : "install node" && \
   curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
