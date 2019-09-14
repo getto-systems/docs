@@ -1,0 +1,25 @@
+
+{{ $scssMain := "scss/main.scss"}}
+{{ if .Site.IsServer }}
+{{/* Note the missing postCSS. This makes it snappier to develop in Chrome, but makes it look sub-optimal in other browsers. */}}
+{{ $css := resources.Get $scssMain | toCSS (dict "enableSourceMap" true) }}
+<link href="{{ $css.RelPermalink }}" rel="stylesheet">
+{{ else }}
+{{ $css := resources.Get $scssMain | toCSS (dict "enableSourceMap" false) | postCSS | minify | fingerprint }}
+<link rel="preload" href="{{ $css.RelPermalink }}" as="style">
+<link href="{{ $css.RelPermalink }}" rel="stylesheet" integrity="{{ $css.Data.integrity }}">
+{{ end }}
+
+{{ if eq (getenv "HUGO_ENV") "production" }}
+<script src="{{ "js/getto-detect.js" }}"></script>
+<script>
+  var pathnames = location.pathname.split("/");
+  GettoDetect({
+    version_to_path: function(version){
+      return "/" + version + "/" + path + location.search;
+    }
+  }).from_current_version((pathnames[1] || "0.0.0"),function(path) {
+    location.href = path;
+  });
+</script>
+{{ end }}
