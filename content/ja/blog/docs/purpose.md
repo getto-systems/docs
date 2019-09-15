@@ -1,7 +1,7 @@
 ---
 title: "ドキュメントの書き方、使用方法の方針について"
 linkTitle: "ドキュメントの書き方"
-date: 2019-08-31
+date: GETTO_DOCS_CONTENT_DATE
 description: >
   ドキュメントを書く目的のまとめ
 ---
