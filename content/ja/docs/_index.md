@@ -1,6 +1,7 @@
 ---
 title: ドキュメント
 linkTitle: ドキュメント
+date: 2019-08-31
 weight: 20
 menu:
   main:
