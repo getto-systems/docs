@@ -6,7 +6,18 @@ let headers = {
     "base-uri 'none'",
     "form-action 'self'",
     "connect-src 'self'",
-    "img-src 'self'",
+    "frame-src " + [
+      "https://cse.google.com/",
+    ].join(" "),
+    "img-src " + [
+      "https://www.google.com/cse/static/css/",
+      "https://www.google.com/cse/static/images/"
+      "https://www.google.com/images/",
+      "https://www.googleapis.com/",
+      "https://clients1.google.com/",
+      "https://ssl.gstatic.com/ui/",
+      "'self'",
+    ].join(" "),
     "font-src " + [
       "https://fonts.gstatic.com/",
       "'self'",
