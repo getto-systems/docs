@@ -7,7 +7,7 @@ let headers = {
     "form-action 'self'",
     "connect-src 'self'",
     "img-src 'self'",
-    "font-src 'self'",
+    "font-src 'self' https://fonts.gstatic.com/",
     "script-src " + [
       "'self'",
       "https://cdnjs.cloudflare.com/",
@@ -18,6 +18,7 @@ let headers = {
       "'self'",
       "'sha256-qrfKUZ7Qym5PldHQIUxPXnloHivOw+K/G6RHojzPzVo='",
       "'sha256-0Ma6tpfVdTZVySLqUcH6N+qz5aWIee/JSbNtEpjmHRQ='",
+      "'sha256-pSQgUq1c1+NLvUbGbB3dH10HbQa3XSVRU3/Wf2wE0aU='",
       "https://fonts.googleapis.com/",
     ].join(" "),
   ].join(" ; "),
