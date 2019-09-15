@@ -16,6 +16,7 @@ let headers = {
       "https://stackpath.bootstrapcdn.com/",
       "https://code.jquery.com/",
       "https://cse.google.com/",
+      "https://www.google.com/",
       "'self'",
       "'sha256-bimIMyRXEP/oybxalWcIAhSYpbLihuUf1RiqrHsg1wA='",
     ].join(" "),
