@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 0.2.0
+
+- fix: top redirect.js : See merge request getto-systems-base/projects/docs!30
+- fix: metadata : See merge request getto-systems-base/projects/docs!29
+
+
 ## Version : 0.1.0
 
 - remove: favicons : See merge request getto-systems-base/projects/docs!28
