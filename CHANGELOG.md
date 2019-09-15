@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 0.1.0
+
+- remove: favicons : See merge request getto-systems-base/projects/docs!28
+- fix: metadata : See merge request getto-systems-base/projects/docs!27
+
+
 ## Version : 0.0.7
 
 - fix: metadata : See merge request getto-systems-base/projects/docs!26
