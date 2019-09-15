@@ -1,6 +1,7 @@
 ---
 title: Docs
 linkTitle: Docs
+date: GETTO_DOCS_CONTENT_DATE
 weight: 1000
 description: >
   ドキュメントの書き方、使用方法の方針について

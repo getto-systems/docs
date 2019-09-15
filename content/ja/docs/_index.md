@@ -1,6 +1,7 @@
 ---
 title: ドキュメント
 linkTitle: ドキュメント
+date: GETTO_DOCS_CONTENT_DATE
 weight: 20
 menu:
   main:
