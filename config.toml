@@ -82,7 +82,7 @@ github_project_repo = "https://github.com/getto-systems/docs"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-#gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+gcs_engine_id = "GCS-ENGINE-ID"
 
 # User interface configuration
 [params.ui]
