@@ -9,9 +9,6 @@ theme = ["docsy"]
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
-# use ugly url
-uglyurls = true
-
 # Language settings
 contentDir = "content/ja"
 defaultContentLanguage = "ja"
