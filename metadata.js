@@ -15,6 +15,7 @@ let headers = {
       "https://cdnjs.cloudflare.com/",
       "https://stackpath.bootstrapcdn.com/",
       "https://code.jquery.com/",
+      "https://cse.google.com/",
       "'self'",
       "'sha256-bimIMyRXEP/oybxalWcIAhSYpbLihuUf1RiqrHsg1wA='",
     ].join(" "),
