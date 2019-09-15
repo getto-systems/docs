@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 0.3.1
+
+- fix: uglyurl : See merge request getto-systems-base/projects/docs!35
+
+
 ## Version : 0.3.0
 
 - fix: detect : See merge request getto-systems-base/projects/docs!34
