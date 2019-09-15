@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 0.0.4
+
+- fix: metadata : See merge request getto-systems-base/projects/docs!23
+
+
 ## Version : 0.0.3
 
 - fix: blog permalink : See merge request getto-systems-base/projects/docs!22
