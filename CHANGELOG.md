@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.0.1
+
+- fix: gcs engine id : See merge request getto-systems-base/projects/docs!37
+
+
 ## Version : 1.0.0
 
 - released! : See merge request getto-systems-base/projects/docs!36
