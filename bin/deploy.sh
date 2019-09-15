@@ -1,11 +1,13 @@
 #!/bin/bash
 
-build_main(){
+deploy_main(){
   local version
   local domain
   local metadata
 
   version=$(cat .release-version)
+
+  ./bin/set_content_date.sh
 
   sed -i \
     -e 's|baseURL = "https://\([^/]\+\)/dev/"|baseURL = "https://\1/'"$version"'/"|' \
@@ -27,4 +29,4 @@ build_main(){
     public s3://$domain/$version
 }
 
-build_main
+deploy_main
