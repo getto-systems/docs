@@ -16,10 +16,12 @@ let headers = {
     ].join(" "),
     "style-src " + [
       "'self'",
+      "https://fonts.googleapis.com/",
       "'sha256-qrfKUZ7Qym5PldHQIUxPXnloHivOw+K/G6RHojzPzVo='",
       "'sha256-0Ma6tpfVdTZVySLqUcH6N+qz5aWIee/JSbNtEpjmHRQ='",
       "'sha256-pSQgUq1c1+NLvUbGbB3dH10HbQa3XSVRU3/Wf2wE0aU='",
       "'sha256-jimIt22piu8wTrmd9dT1psMdeoYTeD6ykru+Oq4Vtfs='",
+      "'sha256-7Or+KYE2T4dtHFWgCRNiDi9M2q1oB+3KFkD+7/cTEdw='",
     ].join(" "),
   ].join(" ; "),
   "x-content-type-options": "nosniff",
