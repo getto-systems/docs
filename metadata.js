@@ -19,7 +19,7 @@ let headers = {
       "'sha256-qrfKUZ7Qym5PldHQIUxPXnloHivOw+K/G6RHojzPzVo='",
       "'sha256-0Ma6tpfVdTZVySLqUcH6N+qz5aWIee/JSbNtEpjmHRQ='",
       "'sha256-pSQgUq1c1+NLvUbGbB3dH10HbQa3XSVRU3/Wf2wE0aU='",
-      "https://fonts.googleapis.com/",
+      "'sha256-jimIt22piu8wTrmd9dT1psMdeoYTeD6ykru+Oq4Vtfs='",
     ].join(" "),
   ].join(" ; "),
   "x-content-type-options": "nosniff",
