@@ -26,7 +26,7 @@ let headers = {
       "https://cdnjs.cloudflare.com/ajax/libs/popper.js/",
       "https://stackpath.bootstrapcdn.com/bootstrap/",
       "https://code.jquery.com/",
-      "https://cse.google.com/",
+      "https://cse.google.com/cse.js",
       "https://www.google.com/cse/static/element/",
       "'self'",
       "'unsafe-eval'",
