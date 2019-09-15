@@ -7,7 +7,11 @@ build_main(){
 
   version=$(cat .release-version)
 
-  sed -i -e 's|baseURL = "https://\([^/]\+\)/dev/"|baseURL = "https://\1/'"$version"'/"|' config.toml
+  sed -i \
+    -e 's|baseURL = "https://\([^/]\+\)/dev/"|baseURL = "https://\1/'"$version"'/"|' \
+    -e 's|GCS-ENGINE-ID|'"$GCS_ENGINE_ID"'|' \
+    config.toml
+
   domain=$(grep "baseURL" config.toml | sed -e 's|.*baseURL = "https://\([^/]\+\)/.*|\1|')
 
   export HUGO_ENV=production
