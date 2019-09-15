@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 0.0.7
+
+- fix: metadata : See merge request getto-systems-base/projects/docs!26
+
+
 ## Version : 0.0.6
 
 - fix: metadata : See merge request getto-systems-base/projects/docs!25
