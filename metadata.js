@@ -18,6 +18,7 @@ let headers = {
       "https://cse.google.com/",
       "https://www.google.com/cse/static/element/",
       "'self'",
+      "'unsafe-eval'",
       "'sha256-bimIMyRXEP/oybxalWcIAhSYpbLihuUf1RiqrHsg1wA='",
     ].join(" "),
     "style-src " + [
