@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 0.2.1
+
+- fix: metadata : See merge request getto-systems-base/projects/docs!31
+
+
 ## Version : 0.2.0
 
 - fix: top redirect.js : See merge request getto-systems-base/projects/docs!30
