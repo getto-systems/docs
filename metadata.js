@@ -27,6 +27,7 @@ let headers = {
       "https://stackpath.bootstrapcdn.com/bootstrap/",
       "https://code.jquery.com/",
       "https://cse.google.com/cse.js",
+      "https://cse.google.com/cse/element/",
       "https://www.google.com/cse/static/element/",
       "'self'",
       "'unsafe-eval'",
