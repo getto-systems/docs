@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.4.0
+
+- fix: redirect.js : See merge request getto-systems-base/projects/docs!49
+
+
 ## Version : 1.3.0
 
 - fix: content date : See merge request getto-systems-base/projects/docs!48
