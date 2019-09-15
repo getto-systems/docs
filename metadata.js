@@ -22,6 +22,7 @@ let headers = {
     ].join(" "),
     "style-src " + [
       "https://fonts.googleapis.com/",
+      "https://www.google.com/cse/static/element/",
       "'self'",
       "'unsafe-inline'",
     ].join(" "),
