@@ -11,7 +11,7 @@ let headers = {
     ].join(" "),
     "img-src " + [
       "https://www.google.com/cse/static/css/",
-      "https://www.google.com/cse/static/images/"
+      "https://www.google.com/cse/static/images/",
       "https://www.google.com/images/",
       "https://www.googleapis.com/",
       "https://clients1.google.com/",
