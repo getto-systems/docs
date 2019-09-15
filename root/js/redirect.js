@@ -9,5 +9,5 @@ if (!pathnames[1] || !(pathnames[1] + "").match(/^[0-9.-]+/)) {
   path = pathnames.slice(2).join("/") + location.search;
 }
 GettoDetect().from_current_version(version,function(href) {
-  location.href = href + path;
+  location.href = href.replace(/index.html$/, "") + path;
 });
