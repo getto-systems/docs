@@ -10,7 +10,8 @@ build_main(){
   sed -i -e 's|baseURL = "https://\([^/]\+\)/dev/"|baseURL = "https://\1/'"$version"'/"|' config.toml
   domain=$(grep "baseURL" config.toml | sed -e 's|.*baseURL = "https://\([^/]\+\)/.*|\1|')
 
-  hugo -e production
+  export HUGO_ENV=production
+  hugo -EF -e production
 
   metadata=$(node metadata.js)
 
