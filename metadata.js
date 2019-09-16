@@ -6,9 +6,8 @@ let headers = {
     "base-uri 'none'",
     "form-action 'self'",
     "connect-src 'self'",
-    "frame-src " + [
-      "https://cse.google.com/",
-    ].join(" "),
+    "frame-src 'none'",
+    "frame-ancestors 'none'",
     "img-src " + [
       "https://www.google.com/cse/static/css/",
       "https://www.google.com/cse/static/images/",
