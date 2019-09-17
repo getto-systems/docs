@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.6.0
+
+- fix: redirect : See merge request getto-systems-base/projects/docs!52
+
+
 ## Version : 1.5.1
 
 - fix: metadata : See merge request getto-systems-base/projects/docs!51
