@@ -12,7 +12,7 @@ RUN set -x && \
     git \
     python-pip \
   && \
-  : "to fix vulnerabilities, update following packages" && \
+  : "to fix vulnerabilities, update packages" && \
   apt-get install -y --no-install-recommends \
     libudev1 \
     libsystemd0 \
