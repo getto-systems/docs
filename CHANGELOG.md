@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Version : 1.7.0
+
+- fix: deploy : See merge request getto-systems-base/projects/docs!56
+- fix: Dockerfile : See merge request getto-systems-base/projects/docs!55
+- fix: gitlab-ci : See merge request getto-systems-base/projects/docs!54
+
+
 ## Version : 1.6.1
 
 - add: find-next-version : See merge request getto-systems-base/projects/docs!53
