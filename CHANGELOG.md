@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.6.1
+
+- add: find-next-version : See merge request getto-systems-base/projects/docs!53
+
+
 ## Version : 1.6.0
 
 - fix: redirect : See merge request getto-systems-base/projects/docs!52
