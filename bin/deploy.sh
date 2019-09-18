@@ -4,6 +4,7 @@ deploy_main(){
   local version
   local domain
   local metadata
+  local file
 
   version=$(cat .release-version)
 
@@ -27,6 +28,14 @@ deploy_main(){
     --metadata "$metadata" \
     --recursive \
     public s3://$domain/$version
+
+  for file in robots.txt sitemap.xml; do
+    aws s3 cp \
+      --acl private \
+      --cache-control "public, max-age=86400" \
+      --metadata "$metadata" \
+      public/$file s3://$domain/$file
+  done
 }
 
 deploy_main
