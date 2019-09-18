@@ -1,4 +1,4 @@
-image: getto/hangar:j0fRHJnie0ynuaHC-20190914225327
+image: getto/hangar:j0fRHJnie0ynuaHC-20190918003608
 
 stages:
   - test
