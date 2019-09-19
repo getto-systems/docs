@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.9.2
+
+- fix: permalink : See merge request getto-systems-base/projects/docs!61
+
+
 ## Version : 1.9.1
 
 - fix: permalink : See merge request getto-systems-base/projects/docs!60
