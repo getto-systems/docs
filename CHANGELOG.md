@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.8.0
+
+- add: docs/abstract : See merge request getto-systems-base/projects/docs!58
+- fix: metadata : See merge request getto-systems-base/projects/docs!57
+
+
 ## Version : 1.7.0
 
 - fix: deploy : See merge request getto-systems-base/projects/docs!56
