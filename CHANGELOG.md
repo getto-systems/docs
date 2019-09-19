@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.9.0
+
+- fix: docs/purpose : See merge request getto-systems-base/projects/docs!59
+
+
 ## Version : 1.8.0
 
 - add: docs/abstract : See merge request getto-systems-base/projects/docs!58
