@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.11.0
+
+- fix: actions link : See merge request getto-systems-base/projects/docs!63
+
+
 ## Version : 1.10.0
 
 - add: psycher slack docs : See merge request getto-systems-base/projects/docs!62
