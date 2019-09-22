@@ -31,7 +31,7 @@ Action からは条件にあった処理が１つだけ返されることを想�
 複数の処理が返された場合、先頭の処理のみ実行される。
 条件にあった処理が無い場合は処理を行わない。
 
-Action の詳細については [Actions](actions) を参照。
+Action の詳細については [Actions](actions/) を参照。
 
 
 ### Conversation
@@ -74,18 +74,18 @@ Action の詳細については [Actions](actions) を参照。
 
 #### Job
 
-- has_deploy_target : Job シグニチャを使用して、Deployment に Job ターゲットを要求し、テキストにターゲットが含まれているなら true
-- trigger_deploy_job : Job シグニチャ、返信先、 Job ターゲットを使用して、 Pipeline をトリガーする
+- has_deploy_target : Job シグニチャを使用して、Deployment にデプロイターゲットを要求し、テキストにターゲットが含まれているなら true
+- trigger_deploy_job : Job シグニチャ、返信先、デプロイターゲットを使用して、 Pipeline をトリガーする
 
 
 ##### Deployment
 
-- targets : Job シグニチャを使用して、Secret Store から Job ターゲットを取得する
+- targets : Job シグニチャを使用して、Secret Store からデプロイターゲットを取得する
 
 
 ##### Pipeline
 
-- deploy : Job シグニチャ、Job ターゲットを使用して、Secret Store から Job トークンを取得し、返信先と共に Job Store にデプロイする
+- deploy : Job シグニチャ、デプロイターゲットを使用して、Secret Store から Job トークンを取得し、返信先と共に Job Store にデプロイする
 
 
 #### Message
