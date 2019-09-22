@@ -2,7 +2,7 @@
 title: 概観
 linkTitle: 概観
 date: GETTO_DOCS_CONTENT_DATE
-weight: 1000
+weight: 1
 description: >
   ドメインモデル概観
 ---
