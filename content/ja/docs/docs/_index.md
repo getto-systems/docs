@@ -7,6 +7,8 @@ description: >
   ドキュメントの書き方、使用方法の方針について
 ---
 
+- [getto/docs : GitHub](https://github.com/getto-systems/docs)
+
 ドキュメントは下記の目的で作成する。
 
 - ドメインモデルをまとめることで、アプリケーションの設計に対するフィードバックを得る
