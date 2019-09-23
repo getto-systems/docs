@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version : 1.11.1
+
+
+
 ## Version : 1.11.0
 
 - fix: actions link : See merge request getto-systems-base/projects/docs!63
