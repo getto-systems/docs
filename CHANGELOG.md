@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.12.0
+
+- add: psycher slack-purpose : See merge request getto-systems-base/projects/docs!65
+- fix: typo : See merge request getto-systems-base/projects/docs!64
+
+
 ## Version : 1.11.1
 
 
