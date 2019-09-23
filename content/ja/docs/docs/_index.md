@@ -17,6 +17,10 @@ description: >
 - ドメインモデルまとめ
 - そのモデルを選択した理由
 
+## PROJECT SOURCES
+
+- [getto/docs : GitHub](https://github.com/getto-systems/docs)
+
 
 ## ドメインモデルまとめ
 
