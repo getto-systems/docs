@@ -7,10 +7,6 @@ description: >
   通知や WebHook を一旦引き取って Slack や Pipeline につなぐ Bot
 ---
 
-- [getto/psycher-slack : GitHub](https://github.com/getto-systems/psycher-slack)
-- [getto/psycher-getto : GitHub](https://github.com/getto-systems/psycher-getto)
-- [getto/psycher-dockerhub : GitHub](https://github.com/getto-systems/psycher-dockerhub)
-
 Bot は下記の目的で作成する。
 
 - 通知から Pipeline につなぐなど、外部システム同士でつなぐ必要がある場合の緩衝材
@@ -21,3 +17,9 @@ Bot は下記の目的で作成する。
 - Slack : Slack App からの通知を受け取る
 - Docker Hub : ビルド完了の通知を受け取る
 - Getto : 独自イベントの通知を受け取る
+
+## PROJECT SOURCES
+
+- [getto/psycher-slack : GitHub](https://github.com/getto-systems/psycher-slack)
+- [getto/psycher-getto : GitHub](https://github.com/getto-systems/psycher-getto)
+- [getto/psycher-dockerhub : GitHub](https://github.com/getto-systems/psycher-dockerhub)
