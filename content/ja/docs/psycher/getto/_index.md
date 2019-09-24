@@ -66,7 +66,7 @@ Action の詳細については [Actions](actions/) を参照。
 
 外部から提供される情報に対応する腐敗防止層。
 
-- Slack Bot Event : AWS Lambda Function のイベントから Event Info を整形する
+- Getto Bot Event : AWS Lambda Function のイベントから Event Info を整形する
 - i18n : Action が要求する言語ごとのテキストを提供する
 
 
