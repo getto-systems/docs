@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.17.0
+
+- fix: link : See merge request getto-systems-base/projects/docs!72
+
+
 ## Version : 1.16.0
 
 - fix: content : See merge request getto-systems-base/projects/docs!71
