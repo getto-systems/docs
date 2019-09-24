@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Version : 1.13.0
+
+- add: psycher/getto docs : See merge request getto-systems-base/projects/docs!68
+- add: psycher/getto-purpose : See merge request getto-systems-base/projects/docs!67
+- add: source links : See merge request getto-systems-base/projects/docs!66
+
+
 ## Version : 1.12.0
 
 - add: psycher slack-purpose : See merge request getto-systems-base/projects/docs!65
