@@ -19,7 +19,7 @@ description: >
 
 ## PROJECT SOURCES
 
-- [getto/docs : GitHub](https://github.com/getto-systems/docs)
+- [getto-systems/docs : GitHub](https://github.com/getto-systems/docs)
 
 
 ## ドメインモデルまとめ

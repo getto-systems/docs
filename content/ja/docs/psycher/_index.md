@@ -20,6 +20,6 @@ Bot は下記の目的で作成する。
 
 ## PROJECT SOURCES
 
-- [getto/psycher-slack : GitHub](https://github.com/getto-systems/psycher-slack)
-- [getto/psycher-getto : GitHub](https://github.com/getto-systems/psycher-getto)
-- [getto/psycher-dockerhub : GitHub](https://github.com/getto-systems/psycher-dockerhub)
+- [getto-systems/psycher-slack : GitHub](https://github.com/getto-systems/psycher-slack)
+- [getto-systems/psycher-getto : GitHub](https://github.com/getto-systems/psycher-getto)
+- [getto-systems/psycher-dockerhub : GitHub](https://github.com/getto-systems/psycher-dockerhub)
