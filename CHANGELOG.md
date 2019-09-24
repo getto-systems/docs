@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.14.0
+
+- fix: content : See merge request getto-systems-base/projects/docs!69
+
+
 ## Version : 1.13.0
 
 - add: psycher/getto docs : See merge request getto-systems-base/projects/docs!68
