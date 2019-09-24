@@ -1,6 +1,5 @@
 ---
 title: "DockerHub Bot による latest タグの登録"
-linkTitle: "DockerHub Bot によるタグ登録"
 date: GETTO_DOCS_CONTENT_DATE
 description: >
   DockerHub Bot の目的まとめ

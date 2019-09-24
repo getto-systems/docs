@@ -1,6 +1,5 @@
 ---
 title: "Getto Bot による通知の処理"
-linkTitle: "Getto Bot による通知"
 date: GETTO_DOCS_CONTENT_DATE
 description: >
   Getto Bot の目的まとめ

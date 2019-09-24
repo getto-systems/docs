@@ -1,6 +1,6 @@
 ---
 title: Psycher
 linkTitle: Psycher
-weight: 1
+weight: 2
 ---
 

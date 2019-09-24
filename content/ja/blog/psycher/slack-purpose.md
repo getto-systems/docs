@@ -1,6 +1,5 @@
 ---
 title: "Slack Bot によるリリースの実行"
-linkTitle: "Slack Bot によるリリース"
 date: GETTO_DOCS_CONTENT_DATE
 description: >
   Slack Bot の目的まとめ
