@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.15.0
+
+- add: dockerhub docs : See merge request getto-systems-base/projects/docs!70
+
+
 ## Version : 1.14.0
 
 - fix: content : See merge request getto-systems-base/projects/docs!69
