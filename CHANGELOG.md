@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.19.0
+
+- fix: link : See merge request getto-systems-base/projects/docs!74
+
+
 ## Version : 1.18.0
 
 - add: hangar docs : See merge request getto-systems-base/projects/docs!73
