@@ -108,12 +108,15 @@ Action の詳細については [Actions](actions/) を参照。
 - i18n : Action が要求する言語ごとのテキストを提供する
 
 
-### INFRA
+### CONFORMIST
 
-外部の接続先に対応する腐敗防止層。
+外部の接続先に対応する順応者。
 
 - UUID Store : uuid で v4 uuid を生成する
 - Document Store : AWS DynamoDB にアクセスする
 - Secret Store : AWS Secret Manager にアクセスする
 - Job Store : GitLab API にリクエストを送信する
 - Message Store : Slack API にリクエストを送信する
+
+このアプリケーションで扱えるようにするだけで、インターフェイスは外部のコンテキストそのまま。
+ドメインの言語に変換するのはリポジトリなどの腐敗防止層が行う。
