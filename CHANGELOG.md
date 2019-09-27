@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.20.0
+
+- fix: CONFORMIST : See merge request getto-systems-base/projects/docs!75
+
+
 ## Version : 1.19.0
 
 - fix: link : See merge request getto-systems-base/projects/docs!74
