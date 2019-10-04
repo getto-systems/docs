@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.21.0
+
+- fix: link text : See merge request getto-systems-base/projects/docs!77
+
+
 ## Version : 1.20.1
 
 - remove: privacy policy link : See merge request getto-systems-base/projects/docs!76
