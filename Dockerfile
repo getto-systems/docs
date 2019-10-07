@@ -12,8 +12,8 @@ RUN set -x && \
     git \
     python-pip \
   && \
-  : "to fix vulnerabilities, update packages" && \
-  apt-get install -y --no-install-recommends \
+  : "to fix vulnerabilities, update packages : 2019-10-08" && \
+  : apt-get install -y --no-install-recommends \
     libudev1 \
     libsystemd0 \
   && \
