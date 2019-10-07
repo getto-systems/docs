@@ -13,9 +13,11 @@ RUN set -x && \
     python-pip \
   && \
   : "to fix vulnerabilities, update packages : 2019-10-08" && \
-  : apt-get install -y --no-install-recommends \
-    libudev1 \
-    libsystemd0 \
+  apt-get install -y --no-install-recommends \
+    e2fsprogs \
+    libcom-err2 \
+    libext2fs2 \
+    libss2 \
   && \
   : "install node" && \
   curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
@@ -31,6 +33,8 @@ RUN set -x && \
   : "cleanup apt caches" && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* && \
+  : "cleanup .npm" && \
+  rm -rf /root/.npm && \
   : "add working user" && \
   useradd -m getto && \
   : "prepare app directory" && \
