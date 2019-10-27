@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version : 1.22.0
+
+- fix: vulnerabilities : See merge request getto-systems-base/projects/docs!81
+- fix: vulnerabilities : See merge request getto-systems-base/projects/docs!80
+- fix: vulnerabilities : See merge request getto-systems-base/projects/docs!79
+- remove: unused getto-detect.js : See merge request getto-systems-base/projects/docs!78
+
+
 ## Version : 1.21.0
 
 - fix: link text : See merge request getto-systems-base/projects/docs!77
