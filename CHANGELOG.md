@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version : 1.22.1
+
+
+
 ## Version : 1.22.0
 
 - fix: vulnerabilities : See merge request getto-systems-base/projects/docs!81
