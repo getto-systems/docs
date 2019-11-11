@@ -1,4 +1,4 @@
-baseURL = "https://docs.getto.systems/dev/"
+baseURL = "https://docs-dev.getto.systems/dev/"
 title = "GETTO systems"
 
 enableRobotsTXT = true
