@@ -57,9 +57,11 @@ deploy_sync(){
 remove_draft_dirs(){
   local file
 
-  for file in $(git grep "draft: true" | grep _index.md | sed "s|;.*||"); do
-    file=$(dirname $file)
-    rm -rf $file
+  for file in $(git grep "^draft: true" | grep _index.md | sed "s|:.*||"); do
+    if [ -f $file ]; then
+      file=$(dirname $file)
+      rm -rf $file
+    fi
   done
 }
 
