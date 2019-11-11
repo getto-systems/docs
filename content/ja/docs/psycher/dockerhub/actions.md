@@ -2,17 +2,13 @@
 title: DockerHub Bot Actions
 linkTitle: Actions
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 1
 description: >
   イベントごとの Action 詳細
 ---
 
 ## Pushed
-
-DockerHub Webhook が pushed された場合、以下の処理を行う。
-
-- trigger_push_latest : latest タグの push を行う
-
 
 ### trigger_push_latest
 

@@ -2,20 +2,13 @@
 title: Slack Bot Actions
 linkTitle: Actions
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 1
 description: >
   イベントごとの Action 詳細
 ---
 
 ## Mention
-
-Slack Bot に対して mention をつけた場合、以下の処理を行う。
-
-- deploy : プロダクトのデプロイを行う
-- deploy target not found : デプロイの対象が見つからないというメッセージを返す
-- greeting : あいさつのメッセージを返す
-- unknown mention : 不明な mention がされたというメッセージを返す
-
 
 ### deploy
 
