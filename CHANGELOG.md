@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.25.4
+
+- fix: deploy : See merge request getto-systems-base/projects/docs!94
+
+
 ## Version : 1.25.3
 
 - fix: deploy : See merge request getto-systems-base/projects/docs!93
