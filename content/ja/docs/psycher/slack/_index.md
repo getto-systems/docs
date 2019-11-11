@@ -2,12 +2,18 @@
 title: Slack
 linkTitle: Slack
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 1
 description: >
   Slack Bot 概観
 ---
 
 ![概観](abstract.png)
+
+
+## PROJECT SOURCES
+
+- [getto-systems/psycher-slack : GitHub](https://github.com/getto-systems/psycher-slack)
 
 
 ## 概要

@@ -2,15 +2,11 @@
 title: Push Latest
 linkTitle: Push Latest
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 2
 description: >
   latest イメージの push 完了の通知
 ---
-
-latest イメージの push 完了の通知を行う。
-
-- success : 「成功」のリアクションを追加する
-
 
 ## success
 

@@ -2,16 +2,11 @@
 title: Deploy
 linkTitle: Deploy
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 1
 description: >
   デプロイ完了の通知
 ---
-
-デプロイ完了の通知を行う。
-
-- success : 「成功」のリアクションを追加する
-- failure : 「失敗」のリアクションを追加する
-
 
 ## success
 

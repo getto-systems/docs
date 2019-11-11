@@ -2,12 +2,18 @@
 title: Getto
 linkTitle: Getto
 date: GETTO_DOCS_CONTENT_DATE
+draft: true
 weight: 2
 description: >
   Getto Bot 概観
 ---
 
 ![概観](abstract.png)
+
+
+## PROJECT SOURCES
+
+- [getto-systems/psycher-getto : GitHub](https://github.com/getto-systems/psycher-getto)
 
 
 ## 概要
