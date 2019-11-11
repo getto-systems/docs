@@ -61,6 +61,7 @@ remove_draft_dirs(){
   for file in $(git grep "^draft: true" | grep _index.md | sed "s|:.*||"); do
     if [ -f $file ]; then
       file=$(dirname $file)
+      echo rm -rf $file
       rm -rf $file
     fi
   done
