@@ -4,7 +4,7 @@ linkTitle: Docs
 date: GETTO_DOCS_CONTENT_DATE
 weight: 1000
 description: >
-  ドキュメントの目的、書き方、使用方法の方針について
+  ドメインモデルの進化の正当性検証
 ---
 
 ## 目的

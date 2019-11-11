@@ -4,15 +4,16 @@ linkTitle: Hangar
 date: GETTO_DOCS_CONTENT_DATE
 weight: 1
 description: >
-  コンテナイメージの作成、ホストについて
+  作業環境の統一
 ---
 
-以下のイメージを [getto/hangar : DockerHub](https://hub.docker.com/r/getto/hangar) にホストする。
+## 目的
 
-- プロジェクト用イメージ : `{ランダム文字列}-{ビルド日時}` タグ
-- テスト用イメージ : `{バージョン番号}` および `latest` タグ
+- 全ての開発者が開発、テスト、プロダクションで同一の環境で作業できるようにする
 
-## PROJECT SOURCES
 
-- [getto-systems/hangar : GitHub](https://github.com/getto-systems/hangar)
-- [getto/hangar : DockerHub](https://hub.docker.com/r/getto/hangar)
+## 概要
+
+- build : Dockerfile のビルドとテストを行う
+- push image : 作成したイメージを push する
+
