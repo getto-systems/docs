@@ -12,9 +12,10 @@ deploy_main(){
   development=$domain
   production=$(echo $domain | sed 's|-dev\.|.|')
 
-  deploy_to $production ""
-  remove_draft_dirs
   deploy_to $development "-D"
+
+  remove_draft_dirs
+  deploy_to $production ""
 }
 deploy_to(){
   local target
