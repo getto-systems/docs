@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.24.0
+
+- fix: fallback_version : See merge request getto-systems-base/projects/docs!89
+
+
 ## Version : 1.23.1
 
 
