@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.25.0
+
+- fix: deploy : See merge request getto-systems-base/projects/docs!90
+
+
 ## Version : 1.24.0
 
 - fix: fallback_version : See merge request getto-systems-base/projects/docs!89
