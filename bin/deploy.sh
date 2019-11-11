@@ -13,6 +13,7 @@ deploy_main(){
   production=$(echo $domain | sed 's|-dev\.|.|')
 
   deploy_to $production ""
+  remove_draft_dirs
   deploy_to $development "-D"
 }
 deploy_to(){
@@ -51,6 +52,14 @@ deploy_sync(){
       --cache-control "public, max-age=86400" \
       --metadata "$metadata" \
       public/$file s3://$target/$file
+  done
+}
+remove_draft_dirs(){
+  local file
+
+  for file in $(git grep "draft: true" | grep _index.md | sed "s|;.*||"); do
+    file=$(dirname $file)
+    rm -rf $file
   done
 }
 

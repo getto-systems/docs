@@ -38,7 +38,7 @@ Action からは条件にあった処理が１つだけ返されることを想�
 複数の処理が返された場合、先頭の処理のみ実行される。
 条件にあった処理が無い場合は処理を行わない。
 
-Action の詳細については [Actions](actions/) を参照。
+Action の詳細については [Actions]({{< relref actions >}}) を参照。
 
 
 ### Notification
