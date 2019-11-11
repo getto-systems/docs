@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version : 1.23.1
+
+
+
 ## Version : 1.23.0
 
 - fix: deploy : See merge request getto-systems-base/projects/docs!88
