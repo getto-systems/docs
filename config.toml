@@ -1,4 +1,4 @@
-baseURL = "https://docs.getto.systems/dev/"
+baseURL = "https://docs-dev.getto.systems/dev/"
 title = "GETTO systems"
 
 enableRobotsTXT = true
@@ -82,7 +82,7 @@ github_repo = "https://github.com/getto-systems/docs"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "GCS-ENGINE-ID"
+#gcs_engine_id = "GCS-ENGINE-ID"
 
 # User interface configuration
 [params.ui]
@@ -114,6 +114,11 @@ enable = false
   url = "https://www.getto.systems/"
   icon = "fas fa-pen-fancy"
   desc = "日常系ほのぼのブログ"
+[[params.links.user]]
+  name = "げっとシステム tools ドキュメント"
+  url = "https://docs.getto.systems/"
+  icon = "fas fa-file-alt"
+  desc = "げっとシステム tools ドキュメント"
 #[[params.links.user]]
 #  name = "User mailing list"
 #  url = "https://example.org/mail"
@@ -130,6 +135,11 @@ enable = false
 #  icon = "fab fa-stack-overflow"
 #  desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+[[params.links.developer]]
+  name = "げっとシステム tools 詳細設計"
+  url = "https://docs-dev.getto.systems/"
+  icon = "fas fa-book"
+  desc = "げっとシステム tools 詳細設計"
 [[params.links.developer]]
   name = "GitHub"
   url = "https://github.com/getto-systems/docs"
