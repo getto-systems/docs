@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Version : 1.23.0
+
+- fix: deploy : See merge request getto-systems-base/projects/docs!88
+- fix: hangar purpose : See merge request getto-systems-base/projects/docs!87
+- fix: psycher purpose : See merge request getto-systems-base/projects/docs!85
+- fix: abstract : See merge request getto-systems-base/projects/docs!84
+- add: blog : docs evolutional : See merge request getto-systems-base/projects/docs!83
+- fix: index : See merge request getto-systems-base/projects/docs!82
+
+
 ## Version : 1.22.1
 
 
