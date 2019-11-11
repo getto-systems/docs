@@ -29,6 +29,7 @@ deploy_to(){
     config.toml
 
   export HUGO_ENV=production
+  rm -rf public
   hugo $opt -e production
 
   deploy_sync
