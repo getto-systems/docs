@@ -12,7 +12,7 @@ RUN set -x && \
     git \
     python-pip \
   && \
-  : "to fix vulnerabilities, update packages : 2019-10-21" && \
+  : "to fix vulnerabilities, update packages : 2019-11-19" && \
   : apt-get install -y --no-install-recommends \
     e2fsprogs \
     libcom-err2 \
