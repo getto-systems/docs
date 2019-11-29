@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version : 1.25.6
+
+
+
 ## Version : 1.25.5
 
 - fix: gitlab-ci : See merge request getto-systems-base/projects/docs!96
