@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.25.5
+
+- fix: gitlab-ci : See merge request getto-systems-base/projects/docs!96
+- fix: vulnerabilities : See merge request getto-systems-base/projects/docs!95
+
+
 ## Version : 1.25.4
 
 - fix: deploy : See merge request getto-systems-base/projects/docs!94
