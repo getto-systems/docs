@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Version : 1.25.7
+
+- fix: gitlab-ci : See merge request getto-systems-base/projects/docs!105
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20191130025522 : See merge request getto-systems-base/projects/docs!104
+- fix: Dockerfile : See merge request getto-systems-base/projects/docs!103
+- fix: Dockerfile : See merge request getto-systems-base/projects/docs!102
+- fix: gitlab-ci : See merge request getto-systems-base/projects/docs!101
+- update tools: 2019-11-30T01:57:25,618090026 00:00 : See merge request getto-systems-base/projects/docs!100
+- fix: gitlab-ci : See merge request getto-systems-base/projects/docs!99
+
+
 ## Version : 1.25.6
 
 
