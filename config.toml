@@ -38,6 +38,9 @@ hrefTargetBlank = true
 angledQuotes = false
 latexDashes = true
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # Image processing configuration.
 [imaging]
 resampleFilter = "CatmullRom"
