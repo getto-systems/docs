@@ -2,7 +2,7 @@
 
 getto-projects documents
 
-status: released
+status: production ready
 
 
 ###### Table of Contents
