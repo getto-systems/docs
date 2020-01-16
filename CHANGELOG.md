@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## Version : 2.0.0
+
+- production ready! : See merge request getto-systems-base/projects/docs!116
+- fix: docs - separate prod and dev : See merge request getto-systems-base/projects/docs!115
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20200113075052 : See merge request getto-systems-base/projects/docs!114
+- fix: vulnerabilities : 2020-01-13T01:07:43,391507260 00:00 : See merge request getto-systems-base/projects/docs!113
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20191223110043 : See merge request getto-systems-base/projects/docs!112
+- fix: vulnerabilities : 2019-12-23T01:09:09,444984280 00:00 : See merge request getto-systems-base/projects/docs!111
+- fix: allow unsafe html : See merge request getto-systems-base/projects/docs!109
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20191210123308 : See merge request getto-systems-base/projects/docs!108
+- fix: vulnerabilities : 2019-12-09T01:08:22,429403010 00:00 : See merge request getto-systems-base/projects/docs!107
+
+
 ## Version : 1.25.7
 
 - fix: gitlab-ci : See merge request getto-systems-base/projects/docs!105
