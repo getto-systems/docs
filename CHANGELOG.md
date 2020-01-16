@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.1.0
+
+- fix: hangar docs : See merge request getto-systems-base/projects/docs!118
+
+
 ## Version : 2.0.0
 
 - production ready! : See merge request getto-systems-base/projects/docs!116
