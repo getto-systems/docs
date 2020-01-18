@@ -1,7 +1,7 @@
 #!/bin/bash
 
-./bin/update_gcloud.sh
-./bin/update_hugo.sh
+./scripts/update_gcloud.sh
+./scripts/update_hugo.sh
 
 if [ "$(git status -s Dockerfile)" ]; then
   git add Dockerfile

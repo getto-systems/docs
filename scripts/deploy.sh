@@ -23,7 +23,7 @@ deploy_to(){
   target=$1; shift
   opt=$1; shift
 
-  ./bin/set_content_date.sh
+  ./scripts/set_content_date.sh
 
   sed -i \
     -e 's|baseURL = ".*"|baseURL = "https://'"$target"'/'"$version"'/"|' \
