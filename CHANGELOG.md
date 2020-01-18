@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.3.0
+
+- add: trellis docs : See merge request getto-systems-base/projects/docs!124
+
+
 ## Version : 2.2.1
 
 - fix: path typo : See merge request getto-systems-base/projects/docs!122
