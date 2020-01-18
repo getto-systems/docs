@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.4.0
+
+- add: grpc docs : See merge request getto-systems-base/projects/docs!126
+
+
 ## Version : 2.3.0
 
 - add: trellis docs : See merge request getto-systems-base/projects/docs!124
