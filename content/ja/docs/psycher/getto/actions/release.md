@@ -1,11 +1,11 @@
 ---
-title: Deploy
-linkTitle: Deploy
+title: Release
+linkTitle: Release
 date: GETTO_DOCS_CONTENT_DATE
 draft: true
 weight: 1
 description: >
-  デプロイ完了の通知
+  リリース完了の通知
 ---
 
 ## success
@@ -16,7 +16,7 @@ description: >
 
 処理の内容は以下の通り。
 
-- 成功のリアクション Message をつける
+- 成功 Message を追加する
 
 
 ## failure
@@ -27,4 +27,4 @@ description: >
 
 処理の内容は以下の通り。
 
-- 失敗のリアクション Message をつける
+- 失敗の Message を追加する
