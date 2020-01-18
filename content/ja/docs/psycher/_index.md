@@ -17,7 +17,6 @@ description: >
 
 - Slack : Slack App からの通知を受け取る
 - Getto : 独自イベントの通知を受け取る
-- Docker Hub : ビルド完了の通知を受け取る
 
 ## 概要
 
@@ -43,16 +42,3 @@ Slack Bot に対して mention をつけた場合、以下の処理を行う。
 デプロイスクリプトからデプロイ完了の通知を受け取って Slack に通知する。
 
 - 成功・失敗のリアクションを追加する
-
-
-#### Push Latest
-
-push スクリプトから latest イメージの push 完了の通知を受け取って Slack に通知する。
-
-
-### Docker Hub
-
-#### Pushed
-
-DockerHub Webhook からビルド完了の通知を受け取って latest タグの push を行う。
-
