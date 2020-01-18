@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.2.0
+
+- fix: psycher docs : See merge request getto-systems-base/projects/docs!120
+
+
 ## Version : 2.1.0
 
 - fix: hangar docs : See merge request getto-systems-base/projects/docs!118
