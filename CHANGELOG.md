@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.2.1
+
+- fix: path typo : See merge request getto-systems-base/projects/docs!122
+
+
 ## Version : 2.2.0
 
 - fix: psycher docs : See merge request getto-systems-base/projects/docs!120
