@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## Version : 2.5.0
+
+- fix: grpc purpose : See merge request getto-systems-base/projects/docs!132
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20200120065910 : See merge request getto-systems-base/projects/docs!131
+- fix: vulnerabilities : 2020-01-20T01:08:37,020969412 00:00 : See merge request getto-systems-base/projects/docs!129
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20200120063818 : See merge request getto-systems-base/projects/docs!130
+- update tools: 2020-01-19T01:06:38,016141404 00:00 : See merge request getto-systems-base/projects/docs!128
+
+
 ## Version : 2.4.0
 
 - add: grpc docs : See merge request getto-systems-base/projects/docs!126
