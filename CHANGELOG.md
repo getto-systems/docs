@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 2.6.0
+
+- fix: grpc docs : See merge request getto-systems-base/projects/docs!135
+- fix: grpc purpose : See merge request getto-systems-base/projects/docs!134
+
+
 ## Version : 2.5.0
 
 - fix: grpc purpose : See merge request getto-systems-base/projects/docs!132
