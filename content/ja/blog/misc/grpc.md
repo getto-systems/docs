@@ -14,14 +14,19 @@ description: >
 - gRPC という目立つ要素を取り入れることで、アプリケーション層以外に gRPC の構造が使われていないか確認する
 
 
-## まずやること
+## できたこと
 
-- Fastly を通して gRPC できるのか
-  - ブラウザと gRPC してみる
-    - [grpc-web](https://github.com/grpc/grpc-web) でブラウザと gRPC できそう
-    - [Envoy](https://www.envoyproxy.io/) を使用するみたい
-  - Fastly にデプロイして通信できるか検証
-    - Envoy を使うことでなんとかなる、かな
+- ブラウザと gRPC した
+  - [grpc-web](https://github.com/grpc/grpc-web) でブラウザと gRPC できた
+  - [Envoy](https://www.envoyproxy.io/) をリバースプロキシとして使用
+- 飛んでいるリクエストは xhr のようなので、Fastly で問題なくいけるはず
+
+
+## やること
+
+- Envoy で JWT を吐き出すことはできるのか
+  - できなければ何か探す
+- Envoy で認証認可する
 
 
 ## 指標
