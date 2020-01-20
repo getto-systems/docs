@@ -1,6 +1,6 @@
 {
   "name": "getto-docs",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "GETTO docs contents",
   "scripts": {
     "test": "textlint $(find content -name '*.md')"
