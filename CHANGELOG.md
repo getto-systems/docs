@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 2.7.0
+
+- add: web-authn : See merge request getto-systems-base/projects/docs!137
+
+
 ## Version : 2.6.0
 
 - fix: grpc docs : See merge request getto-systems-base/projects/docs!135
