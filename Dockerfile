@@ -1,7 +1,7 @@
 FROM ubuntu:disco
 
 ENV NODE_VERSION 12
-ENV HUGO_VERSION 0.62.2
+ENV HUGO_VERSION 0.63.1
 
 RUN set -x && \
   apt-get update && \
