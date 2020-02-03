@@ -13,13 +13,13 @@ description: >
 ## やったこと
 
 - tour of go やった
+- hello world 的な web app を作る
+- WebAuthn のサンプルを試す
+  - [webauthn basic web client/server](https://www.herbie.dev/blog/webauthn-basic-web-client-server/)
 
 
 ## やること
 
-- hello world 的な web app を作る
-- WebAuthn のサンプルを試す
-  - [webauthn basic web client/server](https://www.herbie.dev/blog/webauthn-basic-web-client-server/)
 - 本番用の構成を考える
   - [duo-labs/webauthn.io](https://github.com/duo-labs/webauthn.io)
 

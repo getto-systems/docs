@@ -17,4 +17,5 @@ description: >
 
 ### 認証認可のしくみ
 
-- TODO : しくみを考える
+- WebAuthn を使用する
+- TODO : ほかのしくみも考える
