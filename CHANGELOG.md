@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Version : 2.8.0
+
+- add: web-authn docs : See merge request getto-systems-base/projects/docs!144
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20200202064435 : See merge request getto-systems-base/projects/docs!143
+- update tools: 2020-02-02T01:06:38,370130299 00:00 : See merge request getto-systems-base/projects/docs!142
+- fix: image : getto/hangar:j0fRHJnie0ynuaHC-20200126033912 : See merge request getto-systems-base/projects/docs!141
+- update tools: 2020-01-26T01:06:35,705436316 00:00 : See merge request getto-systems-base/projects/docs!139
+- fix: vulnerabilities : See merge request getto-systems-base/projects/docs!140
+
+
 ## Version : 2.7.0
 
 - add: web-authn : See merge request getto-systems-base/projects/docs!137
